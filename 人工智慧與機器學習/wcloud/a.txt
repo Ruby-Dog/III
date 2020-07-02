@@ -1,0 +1,642 @@
+
+新竹維基媒體社群寫作聚會於每個月第一個週末舉辦，歡迎報名參與
+[關閉]
+人工智慧
+維基百科，自由的百科全書
+跳至導覽跳至搜尋
+Disambig gray.svg  「2020人工智慧」重新導向至此。
+Disambig gray.svg  本文介紹的是人工智慧。關於其他AI的條目，請見「AI」。
+
+本條目存在以下問題，請協助改善本條目或在討論頁針對議題發表看法。
+本條目的引用需要進行清理，使其符合格式。 (2018年9月21日)
+參考文獻應符合正確的引用、腳註及外部連結格式。
+本條目需要精通或熟悉相關主題的編者參與及協助編輯。 (2018年9月21日)
+請邀請適合的人士改善本條目。更多的細節與詳情請參見討論頁。
+本條目序言章節沒有充分總結其內容要點。 (2018年9月21日)
+請考慮擴充序言，為條目所有重要方面提供易懂的概述。請在條目的討論頁討論此問題。
+本條目翻譯品質不佳。 (2018年9月21日)
+翻譯者可能不熟悉中文或原文語言，也可能使用了機器翻譯，請協助翻譯本條目或重新編寫，並注意避免翻譯腔的問題。明顯拙劣的機器翻譯請改掛{{Delete|G13}}提交刪除。
+翻譯標記
+當前條目的內容正在依照其他語言維基百科的內容進行翻譯。（2018年9月21日）
+如果您熟知條目內容並擅長翻譯，歡迎協助改善或校對此條目，長期閒置的非中文內容可能會被移除。
+「人工智慧」的各地常用別名
+ArtificialFictionBrain.png
+中國大陸	人工智能
+臺灣	人工智慧
+港澳	人工智能
+馬新	人工智能
+日韓	人工知能
+越南	智慧人造（人造智慧）
+科學
+系列條目
+Julie Perkins at LLNL.jpg
+形式科學
+顯示▼
+物理科學
+顯示▼
+生命科學
+顯示▼
+社會科學
+顯示▼
+應用科學
+顯示▼
+科际整合
+顯示▼
+科學哲學科學史
+顯示▼
+列表級條目科學大綱 主題科學主題 分類科學分類 專題 專題 計畫頁面科學史
+閱論編
+神經心理學
+主題顯示▼
+腦功能顯示▼
+人物顯示▼
+神經心理學測驗顯示▼
+閱論編
+人工智慧（英語：Artificial Intelligence，縮寫為 AI）亦稱機器智慧，指由人製造出來的機器所表現出來的智慧。通常人工智慧是指通過普通電腦程式的手段實現的人類智慧技術。該詞也指出研究這樣的智慧系統是否能夠實現，以及如何實現。同時，人類的無數職業也逐漸被其取代。[1]
+
+一般教材中的定義領域是「智慧主體（intelligent agent）的研究與設計」[2]，智慧主體指一個可以觀察周遭環境並作出行動以達致目標的系統[3]。約翰·麥卡錫於1955年的定義是[4]「製造智慧機器的科學與工程」[5]。安德里亞斯•卡普蘭（Andreas Kaplan）和麥可•海恩萊因（Michael Haenlein）將人工智慧定義為「系統正確解釋外部資料，從這些資料中學習，並利用這些知識通過靈活適應實現特定目標和任務的能力」。[6]
+
+人工智慧的研究是高度技術性和專業的，各分支領域都是深入且各不相通的，因而涉及範圍極廣[7]。人工智慧的研究可以分為幾個技術問題。其分支領域主要集中在解決具體問題，其中之一是，如何使用各種不同的工具完成特定的應用程式。
+
+AI的核心問題包括建構能夠跟人類似甚至超越的推理、知識、規劃、學習、交流、感知、移動和操作物體的能力等[8]。人工智慧目前仍然是該領域的長遠目標[9]。目前強人工智慧已經有初步成果，甚至在一些影像辨識、語言分析、棋類遊戲等等單方面的能力達到了超越人類的水平，而且人工智慧的通用性代表著，能解決上述的問題的是一樣的AI程式，無須重新開發演算法就可以直接使用現有的AI完成任務，與人類的處理能力相同，但達到具備思考能力的統合強人工智慧還需要時間研究，比較流行的方法包括統計方法，計算智慧和傳統意義的AI。目前有大量的工具應用了人工智慧，其中包括搜尋和數學最佳化、邏輯推演。而基於仿生學、認知心理學，以及基於機率論和經濟學的演算法等等也在逐步探索當中。 思維來源於大腦，而思維控制行為，行為需要意志去實現，而思維又是對所有資料採集的整理，相當於資料庫，所以人工智慧最後會演變為機器替換人類。
+
+
+目錄
+1	概論
+2	發展史
+3	研究課題
+3.1	演繹、推理和解決問題
+3.2	知識表示法
+3.3	規劃
+3.4	學習
+3.5	自然語言處理
+3.6	運動和控制
+3.7	知覺
+3.8	社交
+3.9	創造力
+3.10	倫理管理
+3.11	經濟衝擊
+4	強人工智慧和弱人工智慧
+4.1	強人工智慧
+4.2	弱人工智慧
+4.3	對強人工智慧的哲學爭論
+5	研究方法
+5.1	控制論與大腦類比
+5.2	符號處理
+5.3	子符號方法
+5.4	統計學方法
+5.5	整合方法
+6	實際應用
+7	學科範疇
+7.1	涉及學科
+7.2	研究範疇
+8	應用領域
+9	相關
+10	參看
+11	參見
+12	參考文獻
+12.1	參照
+12.2	來源
+13	擴展閱讀
+14	外部連結
+概論
+人工智慧的定義可以分為兩部分，即「人工」和「智慧」。「人工」比較好理解，爭議性也不大。有時我們會要考慮什麼是人力所能及製造的，或者人自身的智慧程度有沒有高到可以創造人工智慧的地步，等等。但總括來說，「人工系統」就是通常意義下的人工系統。
+
+關於什麼是「智慧」，就問題多多了。這涉及到其它諸如意識（consciousness）、自我（self）、心靈（mind），包括無意識的精神（unconscious mind）等等問題。人唯一瞭解的智慧是人本身的智慧，這是普遍認同的觀點。但是我們對我們自身智慧的理解都非常有限，對構成人的智慧必要元素的瞭解也很有限，所以就很難定義什麼是「人工」製造的「智慧」了。因此人工智慧的研究往往涉及對人智慧本身的研究。其它關於動物或其它人造系統的智慧也普遍被認為是人工智慧相關的研究課題。
+
+人工智慧目前在電腦領域內，得到了愈加廣泛的發揮。並在機器人、經濟政治決策、控制系統、仿真系統中得到應用。
+
+發展史
+主條目：人工智慧的歷史
+年代	20世紀40年代	20世紀50年代	20世紀60年代	20世紀70年代	20世紀80年代	20世紀90年代	21世紀00年代
+電腦	1945 電腦（ENIAC）	1957 FORTRAN語言
+人工智慧研究		1953 博弈論
+1956 達特矛斯會議		1977 知識工程宣言	1982 第五代電腦計劃開始	1991 人工神經網路
+人工智慧語言			1960 LISP語言	1973 PROLOG語言
+知識表達				1973 生產系統
+1976 框架理論
+專家系統			1965 DENDRAL	1975 MYCIN	1980 Xcon
+研究課題
+目前人工智慧的研究方向已經被分成幾個子領域，研究人員希望一個人工智慧系統應該具有某些特定能力，以下將這些能力列出並說明。[8]
+
+演繹、推理和解決問題
+早期的人工智慧研究人員直接模仿人類進行逐步的推理，就像是玩棋盤遊戲或進行邏輯推理時人類的思考模式。[10]到了1980和1990年代，利用機率和經濟學上的概念，人工智慧研究還發展了非常成功的方法處理不確定或不完整的資訊。[11]
+
+對於困難的問題，有可能需要大量的運算資源，也就是發生了「可能組合爆增」：當問題超過一定的規模時，電腦會需要天文數量級的記憶體或是運算時間。尋找更有效的演算法是優先的人工智慧研究專案。[12]
+
+人類解決問題的模式通常是用最快捷、直觀的判斷，而不是有意識的、一步一步的推導，早期人工智慧研究通常使用逐步推導的方式。[13]人工智慧研究已經於這種「次表徵性的」解決問題方法取得進展：實體化Agent研究強調感知運動的重要性。神經網路研究試圖以類比人類和動物的大腦結構重現這種技能。
+
+知識表示法
+
+本體論將知識表示為一個領域內的一組概念以及這些概念之間的關係。
+主條目：知識表示和常識知識庫
+知識表示是人工智慧領域的核心研究問題之一，它的目標是讓機器儲存相應的知識，並且能夠按照某種規則推理演繹得到新的知識。有許多需要解決的問題需要大量的對世界的知識,這些知識包括事先儲存的先驗知識和通過智慧推理得到的知識。事先儲存的先驗知識指：人類通過某種方式告訴給機器的知識。通過智慧推理得到的知識指：結合先驗知識和某種特定的推理規則（邏輯推理）得到的知識。首先，先驗知識可以指描述目標，特徵，種類以及目標之間的關係的知識， 也可以描述事件，時間，狀態，原因和結果， 以及任何知識你想要機器儲存的。比如：今天沒有太陽，沒有太陽就是陰天。那麼以命題邏輯語言，這些知識可以被表示為：今天-->沒有太陽， 沒有太陽-->陰天。這些知識是先驗知識，那麼通過推理可以得到新知識：今天-->陰天。由此例子可以看出，先驗知識的正確性非常重要，這個例子中沒有太陽就是陰天，這個命題是不嚴謹的，比較籠統的，因為沒有太陽可能是下雨，也可能下雪。邏輯命題表示在知識表示中非常重要，邏輯推理規則是目前主要推理規則。可以在機器中用邏輯符號定義每一個邏輯命題，然後再讓機器儲存相應的邏輯推理規則，那麼自然而然機器便可進行推理。目前知識表達有許多困境尚無法解決，比如：建立一個完備的知識庫幾乎不可能，所以知識庫的資源受到限制；先驗知識的正確性需要進行檢驗，而且先驗知識有時候不一定是只有對或者錯兩種選擇。
+
+規劃
+智慧Agent必須能夠制定目標和實現這些目標。[14]他們需要一種方法來建立一個可預測的世界模型（將整個世界狀態用數學模型表現出來，並能預測它們的行為將如何改變這個世界），這樣就可以選擇功效最大的行為。[15] 在傳統的規劃問題中，智慧Agent被假定它是世界中唯一具有影響力的，所以它要做出什麼行為是已經確定的。[16]但是，如果事實並非如此，它必須定期檢查世界模型的狀態是否和自己的預測相符合。如果不符合，它必須改變它的計劃。因此智慧代理必須具有在不確定結果的狀態下推理的能力。[17] 在多Agent中，多個Agent規劃以合作和競爭的方式去完成一定的目標，使用演化演算法和群體智慧可以達成一個整體的突現行為目標。[18]
+
+學習
+主條目：機器學習
+機器學習的主要目的是為了讓機器從使用者和輸入資料等處獲得知識，從而讓機器自動地去判斷和輸出相應的結果。這一方法可以幫助解決更多問題、減少錯誤，提高解決問題的效率。對於人工智慧來說，機器學習從一開始就很重要。1956年，在最初的達特茅斯夏季會議上，雷蒙德·索洛莫諾夫[來源請求]寫了一篇關於不監視的機率性機器學習：一個歸納推理的機器。
+
+機器學習的方法各種各樣，主要分為監督學習和非監督學習兩大類。監督學習指事先給定機器一些訓練樣本並且告訴樣本的類別，然後根據這些樣本的類別進行訓練，提取出這些樣本的共同屬性或者訓練一個分類器，等新來一個樣本，則通過訓練得到的共同屬性或者分類器進行判斷該樣本的類別。監督學習根據輸出結果的離散性和連續性，分為分類和回歸兩類。非監督學習是不給定訓練樣本，直接給定一些樣本和一些規則，讓機器自動根據一些規則進行分類。無論哪種學習方法都會進行誤差分析，從而知道所提的方法在理論上是否誤差有上限。
+
+自然語言處理
+主條目：自然語言處理
+自然語言處理探討如何處理及運用自然語言，自然語言認知則是指讓電腦「懂」人類的語言。自然語言生成系統把電腦資料轉化為自然語言。自然語言理解系統把自然語言轉化為電腦程式更易於處理的形式。
+
+運動和控制
+主條目：機器人學
+知覺
+主條目：機器感知、電腦視覺和語音識別
+機器感知[19]是指能夠使用感測器所輸入的資料（如照相機、麥克風、聲納以及其他的特殊感測器）然後推斷世界的狀態。電腦視覺[20]能夠分析影像輸入。另外還有語音識別[21]、臉部辨識和物體辨識。[22]
+
+社交
+主條目：情感計算
+
+Kismet，一個具有表情等社交能力的機器人[23]
+情感和社交技能對於一個智慧agent是很重要的。首先，通過了解他們的動機和情感狀態，代理人能夠預測別人的行動（這涉及要素 博弈論、決策理論以及能夠塑造人的情感和情緒感知能力檢測）。此外，為了良好的人機互動，智慧代理人也需要表現出情緒來。至少它必須出現禮貌地和人類打交道。至少，它本身應該有正常的情緒。
+
+創造力
+主條目：電腦創造力
+一個人工智慧的子領域，代表了理論（從哲學和心理學的角度）和實際（通過特定的實現產生的系統的輸出是可以考慮的創意，或系統識別和評估創造力）所定義的創造力。相關領域研究的包括了人工直覺和人工想像。
+
+倫理管理
+史蒂芬·霍金、比爾蓋茲、馬斯克、 Jaan Tallinn 以及 Nick Bostrom 等人都對於人工智慧技術的未來公開表示憂心[24]，人工智慧若在許多方面超越人類智慧水平的智慧、不斷更新、自我提升，進而取得控制管理權，人類是否有足夠的能力及時停止人工智慧領域的「軍備競賽」，能否保有最高掌控權，現有事實是：機器常失控導致人員傷亡，這樣的情況是否會更加擴大規模出現，歷史顯然無法給出可靠的樂觀答案。特斯拉電動車馬斯克（Elon Musk）在麻省理工學院（MIT）航空航天部門百年紀念研討會上稱人工智慧是「召喚惡魔」行為，英國發明家Clive Sinclair認為一旦開始製造抵抗人類和超越人類的智慧機器，人類可能很難生存，蓋茲同意馬斯克和其它人所言，且不知道為何有些人不擔憂這個問題。[25]
+
+DeepMind的人工智慧（AI）系統在2016年「AlphaGo」對戰南韓棋王李世乭獲勝，開發商表示在內部設立倫理委員會，針對人工智慧的應用制定政策，防範人工智慧淪為犯罪開發者。[26]
+
+科技進步，人工智慧科技產生「自主武器」軍備競賽已悄悄展開，英國、以色列與挪威，都已部署自主飛彈與無人操控的無人機，具「射後不理」（fire-and-forget）能力的飛彈，多枚飛彈還可互相溝通，分享找到攻擊目標。這些武器還未被大量投入，但很快就會出現在戰場上，且並非使用人類所設計的程式，而是完全利用機器自行決策。 霍金等人在英國獨立報發表文章警告未來人工智慧可能會比人類金融市場、科學家、人類領袖更能操縱人心、甚至研發出人們無法理解的武器。專家恐發展到無法控制的局面，援引聯合國禁止研發某些特定武器的「特定常規武器公約」加以限制。[27]新南威爾斯大學（New South Wales）人工智慧的沃爾什（Toby Walsh）教授認為這是一種欺騙，因為機器無區別戰敵和平民的技術。[28]
+
+經濟衝擊
+據CNN財經網數字媒體未來學家兼Webbmedia集團創始人艾米·韋伯（Amy Webb）；美國在線[29]...等紛紛預測一些即將被機器人取代的職業，日本野村總合研究所也與英國牛津大學的研究學者共同調查指出，10至20年後，日本有49%的職業(235種職業)可能會被機械和人工智慧取代而消失，直接影響約達2500萬人，[30]例如：超市店員、一般事務員、計程車司機、收費站運營商和收銀員、市場營銷人員、客服人員、製造業工人、金融中間人和分析師、新聞記者、電話公司職員、麻醉師、士兵和保安、律師、醫生、軟體開發者和操盤手、股票交易員等等高薪酬的腦力職業將最先受到衝擊[31]。
+
+2017年6月份馬雲在美國底特律舉行「鏈結世界」（Gateway 17）產業大會，會上提出人工智慧可能導致第三次世界大戰，因為前兩次產業革命都導致兩次大戰，戰爭原因並非這些創新發明本身，而是發明對社會上許多人的生活方式衝擊處理不當，新科技在社會上產生新工作也取代舊工作，產生了新的輸家和贏家，若是輸家的人數太多將造成一股社會不穩的能量而這股能量被有心人利用可能導致各種事件。他認為各國應該強制訂定規定AI機器只能用於人類不能做的工作，避免短時間大量人類被取代的失業大潮，但馬雲沒有提出這種世界性規定將如何實現並確保遵守的細節方案。[32]
+
+資料科學和人工智慧被哈佛商業評論稱為《二十一世紀最Sexy的職業》[33]，人工智慧需求量大，鼓勵了不少大學諸如伯克利大學專門成立資料科學系。矽谷和紐約為主的《The Data Incubator》公司於2012年成立，焦點是資料科學，巨量資料，和人工智慧企業培訓，提供國際巨量資料培訓服務。
+
+強人工智慧和弱人工智慧
+人工智慧的一個比較流行的定義，也是該領域較早的定義，是由當時麻省理工學院的約翰·麥卡錫在1956年的達特矛斯會議上提出的：人工智慧就是要讓機器的行為看起來就像是人所表現出的智慧行為一樣。但是這個定義似乎忽略了強人工智慧的可能性（見下）。另一個定義指人工智慧是人造機器所表現出來的智慧。總體來講，目前對人工智慧的定義大多可劃分為四類，即機器「像人一樣思考」、「像人一樣行動」、「理性地思考」和「理性地行動」。這裡「行動」應廣義地理解為採取行動，或制定行動的決策，而不是肢體動作。
+
+強人工智慧
+主條目：強人工智慧
+強人工智慧觀點認為「有可能」製造出「真正」能推理（Reasoning）和解決問題的智慧機器，並且，這樣的機器將被認為是具有知覺、有自我意識的。強人工智慧可以有兩類：
+
+人類的人工智慧，即機器的思考和推理就像人的思維一樣。
+非人類的人工智慧，即機器產生了和人完全不一樣的知覺和意識，使用和人完全不一樣的推理方式。
+弱人工智慧
+弱人工智慧觀點認為「不可能」製造出能「真正」地推理和解決問題的智慧機器，這些機器只不過「看起來」像是智慧的，但是並不真正擁有智慧，也不會有自主意識。
+
+弱人工智慧是對比強人工智慧才出現的，因為人工智慧的研究一度處於停滯不前的狀態下，直到類神經網路有了強大的運算能力加以類比後，才開始改變並大幅超前。但人工智慧研究者不一定同意弱人工智慧，也不一定在乎或者了解強人工智慧和弱人工智慧的內容與差別，對定義爭論不休。
+
+就當下的人工智慧研究領域來看，研究者已大量造出「看起來」像是智慧的機器，取得相當豐碩的理論上和實質上的成果，如2009年康乃爾大學教授Hod Lipson 和其博士研究生Michael Schmidt 研發出的 Eureqa電腦程式，只要給予一些資料，這電腦程式自己只用幾十個小時計算就推論出牛頓花費多年研究才發現的牛頓力學公式，等於只用幾十個小時就自己重新發現牛頓力學公式，這電腦程式也能用來研究很多其他領域的科學問題上。這些所謂的弱人工智慧在神經網路發展下已經有巨大進步，但對於要如何整合成強人工智慧，現在還沒有明確定論。
+
+對強人工智慧的哲學爭論
+「強人工智慧」一詞最初是約翰·羅傑斯·希爾勒針對電腦和其它資訊處理機器創造的，其定義為：
+
+「強人工智慧觀點認為電腦不僅是用來研究人的思維的一種工具；相反，只要運行適當的程式，電腦本身就是有思維的。」（J Searle in Minds Brains and Programs. The Behavioral and Brain Sciences, vol. 3, 1980）
+
+關於強人工智慧的爭論，不同於更廣義的一元論和二元論的爭論。其爭論要點是：如果一台機器的唯一工作原理就是轉換編碼資料，那麼這台機器是不是有思維的？希爾勒認為這是不可能的。他舉了個中文房間的例子來說明，如果機器僅僅是轉換資料，而資料本身是對某些事情的一種編碼表現，那麼在不理解這一編碼和這實際事情之間的對應關係的前提下，機器不可能對其處理的資料有任何理解。基於這一論點，希爾勒認為即使有機器通過了圖靈測試，也不一定說明機器就真的像人一樣有自我思維和自由意識。
+
+也有哲學家持不同的觀點。丹尼爾·丹尼特在其著作《意識的解釋》（Consciousness Explained）裡認為，人也不過是一台有靈魂的機器而已，為什麼我們認為：「人可以有智慧，而普通機器就不能」呢？他認為像上述的資料轉換機器是有可能有思維和意識的。
+
+有的哲學家認為如果弱人工智慧是可實現的，那麼強人工智慧也是可實現的。比如西蒙·布萊克本（Simon Blackburn）在其哲學入門教材Think裡說道，一個人的看起來是「智慧」的行動並不能真正說明這個人就真的是智慧的。我永遠不可能知道另一個人是否真的像我一樣是智慧的，還是說她／他僅僅是「看起來」是智慧的。基於這個論點，既然弱人工智慧認為可以令機器「看起來」像是智慧的，那就不能完全否定這機器是真的有智慧的。布萊克本認為這是一個主觀認定的問題。
+
+需要指出的是，弱人工智慧並非和強人工智慧完全對立，也就是說，即使強人工智慧是可能的，弱人工智慧仍然是有意義的。至少，今日的電腦能做的事，像算術運算等，在一百多年前是被認為很需要智慧的。並且，即使強人工智慧被證明為可能的，也不代表強人工智慧必定能被研製出來。
+
+研究方法
+目前沒有統一的原理或範式指導人工智慧研究。許多問題上研究者都存在爭論。[34]
+
+其中幾個長久以來仍沒有結論的問題是：是否應從心理或神經方面類比人工智慧?或者像鳥類生物學對於航空工程一樣，人類生物學對於人工智慧研究是沒有關係的？[35]智慧行為能否用簡單的原則（如邏輯或最佳化）來描述？還是必須解決大量完全無關的問題？[36]
+
+智慧是否可以使用進階符號表達，如詞和想法？還是需要「子符號」的處理？[37] 約翰·豪格蘭德（John Haugeland）提出了GOFAI（出色的老式人工智慧）的概念，也提議人工智慧應歸類為synthetic intelligence，[38]這個概念後來被某些非GOFAI研究者採納。[39][40]
+
+控制論與大腦類比
+主條目：控制論和計算神經科學
+20世紀40年代到50年代，許多研究者探索神經學、資訊理論及控制論之間的聯絡。其中還造出一些使用電子網路絡構造的初步智慧，如格雷·華特（W. Grey Walter）的烏龜（turtle）和約翰霍普金斯野獸（Johns Hopkins Beast）。
+
+這些研究者還經常在普林斯頓大學和英國的Ratio Club舉行技術協會會議。[41]直到1960，大部分人已經放棄這個方法，儘管在80年代再次提出這些原理。
+
+符號處理
+主條目：GOFAI
+當20世紀50年代，數位電腦研製成功，研究者開始探索人類智慧是否能簡化成符號處理。研究主要集中在卡內基梅隆大學，史丹福大學和麻省理工學院，而各自有獨立的研究風格。約翰·豪格蘭德（John Haugeland）稱這些方法為GOFAI（出色的老式人工智慧）[42]。60年代，符號方法在小型證明程式上類比進階思考有很大的成就。基於控制論或神經網路的方法則置於次要[43]。60－70年代的研究者確信符號方法最終可以成功創造強人工智慧的機器，同時這也是他們的目標。
+
+認知類比：經濟學家赫伯特·西蒙和艾倫·紐厄爾研究人類問題解決能力和嘗試將其形式化，同時他們為人工智慧的基本原理打下基礎，如認知科學、運籌學和經營科學。他們的研究團隊使用心理學實驗的結果開發類比人類解決問題方法的程式。這方法一直在卡內基梅隆大學沿襲下來，並在80年代於Soar發展到高峰[44][45]。
+基於邏輯：不像艾倫·紐厄爾和赫伯特·西蒙，約翰·麥卡錫認為機器不需要類比人類的思想，而應嘗試找到抽象推理和解決問題的本質，不管人們是否使用同樣的演算法[35]。他在史丹福大學的實驗室致力於使用形式化邏輯解決多種問題，包括知識表示，智慧規劃和機器學習[46]。致力於邏輯方法的還有愛丁堡大學，而促成歐洲的其他地方開發程式語言Prolog和邏輯編程科學[47]。
+「反邏輯」: 史丹福大學的研究者 （如馬文·閔斯基和西摩爾·派普特）[48]發現要解決電腦視覺和自然語言處理的困難問題，需要專門的方案：他們主張不存在簡單和通用原理（如邏輯）能夠達到所有的智慧行為。羅傑·單克（Roger Schank）描述他們的「反邏輯」方法為「scruffy」[36]。常識知識庫（如道格拉斯·萊納特的Cyc）就是「scruffy」AI的例子，因為他們必須人工一次編寫一個複雜的概念[49]。
+基於知識：大約在1970年出現大容量記憶體電腦，研究者分別以三個方法開始把知識構造成應用軟體[50]。這場「知識革命」促成專家系統的開發與計劃，這是第一個成功的人工智慧軟體形式[51]。「知識革命」同時讓人們意識到許多簡單的人工智慧軟體可能需要大量的知識。
+子符號方法
+1980年代符號人工智慧停滯不前，很多人認為符號系統永遠不可能模仿人類所有的認知過程，特別是感知、機器人、機器學習和圖形辨識。很多研究者開始關注子符號方法解決特定的人工智慧問題[37]。
+
+自下而上、埠agent、嵌入環境（機器人）、行為主義、新式AI：機器人領域相關的研究者，如羅德尼·布魯克斯（Rodney Brooks），否定符號人工智慧而專注於機器人移動和求生等基本的工程問題。[52]他們的工作再次關注早期控制論研究者的觀點，同時提出了在人工智慧中使用控制理論。這與認知科學領域中的表徵感知論點是一致的:更高的智慧需要個體的表徵（如移動，感知和形象）。
+計算智慧：1980年代中大衛·魯姆哈特（David E. Rumelhart）等再次提出神經網路和聯結主義[53]。這和其他的子符號方法，如模糊控制和進化計算，都屬於計算智慧學科研究範疇[54]。
+統計學方法
+1990年代，人工智慧研究發展出複雜的數學工具來解決特定的分支問題。這些工具是真正的科學方法，即這些方法的結果是可測量的和可驗證的，同時也是近期人工智慧成功的原因。共用的數學語言也允許已有學科的合作（如數學，經濟或運籌學）。Stuart J. Russell和Peter Norvig指出這些進步不亞於「革命」和「neats的成功」[55]。有人批評這些技術太專注於特定的問題，而沒有考慮長遠的強人工智慧目標[56]。
+
+整合方法
+智慧agent範式：智慧agent是一個會感知環境並作出行動以達致目標的系統。最簡單的智慧agent是那些可以解決特定問題的程式。更複雜的agent包括人類和人類組織（如公司）。這些範式可以讓研究者研究單獨的問題和找出有用且可驗證的方案，而不需考慮單一的方法。一個解決特定問題的agent可以使用任何可行的方法-一些agent用符號方法和邏輯方法，一些則是子符號神經網路或其他新的方法。範式同時也給研究者提供一個與其他領域溝通的共同語言--如決策論和經濟學（也使用abstract agents的概念）。1990年代智慧agent範式被廣泛接受。[3]
+agent體系結構和認知體系結構：研究者設計出一些系統來處理多agent系統中智慧agent之間的相互作用。[57]一個系統中包含符號和子符號部分的系統稱為混合智慧系統，而對這種系統的研究則是人工智慧系統整合。分級控制系統則給反應級別的子符號AI和最進階別的傳統符號AI提供橋樑，同時放寬了規劃和世界建模的時間。
+實際應用
+機器視覺、指紋辨識、臉部辨識、視網膜辨識、虹膜辨識、掌紋辨識、專家系統、自動規劃等。
+
+學科範疇
+人工智慧是一門邊緣學科，屬於自然科學和社會科學的交叉。
+
+涉及學科
+物理學
+哲學和認知科學
+邏輯學
+數學，統計學
+心理學
+電腦科學
+控制論
+決定論
+不確定性原理
+社會學
+犯罪學
+智慧犯罪
+研究範疇
+自然語言處理（NLP; Natural Language Processing）
+知識表現（Knowledge Representation）
+智慧搜尋（Intelligent Search）
+推理
+規劃（Planning）
+機器學習（Machine Learning）
+增強式學習（Reinforcement Learning）
+知識獲取
+感知問題
+模式識別
+邏輯程式設計
+軟計算（Soft Computing）
+不精確和不確定的管理
+人工生命（Artificial Life）
+人工神經網路（Artificial Neural Network）
+複雜系統
+遺傳演算法
+資料挖掘（Data Mining）
+模糊控制
+應用領域
+智慧控制
+機器人學
+自動化技術
+語言和圖像理解
+遺傳編程
+法學資訊系統
+下棋
+醫學領域
+相關
+人類滅絕
+參看
+人類自願滅絕運動
+參見
+	電腦科學主題
+icon	機器人學主題
+自動駕駛
+人工生命
+人工智慧哲學
+認知神經科學
+電腦圍棋
+艾倫·圖靈
+恐怖谷理論
+電子世界爭霸戰
+電腦科學
+電腦科學課程列表
+認知科學
+意識
+希爾勒的中文房間
+語義學
+技術奇異點
+集體智慧
+控制論
+心理學
+生物化學電腦（例：人腦）
+東Robo君（東ロボくん）
+國際人工智慧聯合會議
+網路本體語言（OWL）
+遊戲樹
+量子電腦
+自動駕駛汽車
+參考文獻
+參照
+ 人工智慧「搶飯碗」 2020年會計師將被AI取代
+ 針對研究智慧代理的人工智慧定義：
+Poole，Mackworth & Goebel（1998），p. 1其中使用"計算智慧"作為人工智慧的同義詞.
+Russell & Norvig 2003 (主張"理性智慧體"的概念)其中寫道"完整智慧體的觀念現在已經在領域內被廣泛接受" Russell & Norvig 2003，第55頁 Russell & Norvig 2004，第43頁.
+Nilsson 1998
+ 智慧代理範式：
+Russell & Norvig 2003，第27, 32–58, 968–972頁
+Poole，Mackworth & Goebel（1998），第7–21頁
+Luger & Stubblefield 2004，第235–240頁
+此處使用的定義--目的，動作，感知與環境出自Russell & Norvig (2003).
+ 儘管這點上存在爭論（見Crevier (1993， p. 50)）, McCarthy在一個訪談中明確的說"我想出了這個詞" . （Skillings 2006）
+ McCarthy對人工智慧的定義：
+McCarthy 2007
+ Andreas Kaplan; Michael Haenlein (2019) Siri, Siri in my Hand, who's the Fairest in the Land? On the Interpretations, Illustrations and Implications of Artificial Intelligence, Business Horizons, 62(1), 15-25
+ Pamela McCorduck (2004， pp. 424) writes of "the rough shattering of AI in subfields—vision, natural language, decision theory, genetic algorithms, robotics ... and these with own sub-subfield—that would hardly have anything to say to each other."
+ 這些智慧的特徵出自以下教材：
+Russell & Norvig 2003
+Luger & Stubblefield 2004
+Poole，Mackworth & Goebel（1998）
+Nilsson 1998
+ 強人工智慧常出現在人工智慧的導論中：
+Kurzweil 1999和 Kurzweil 2005
+ Problem solving, puzzle solving, game playing and deduction:
+Russell & Norvig 2003，chpt. 3–9,
+Poole，Mackworth & Goebel（1998），chpt. 2,3,7,9,
+Luger & Stubblefield 2004，chpt. 3,4,6,8,
+Nilsson 1998，chpt. 7–12
+ Uncertain reasoning:
+Russell & Norvig 2003，第452–644頁,
+Poole，Mackworth & Goebel（1998），第345–395頁,
+Luger & Stubblefield 2004，第333–381頁,
+Nilsson 1998，chpt. 19
+ Intractability and efficiency and the combinatorial explosion:
+Russell & Norvig 2003，第9, 21–22頁
+ Psychological evidence of sub-symbolic reasoning:
+Wason & Shapiro (1966) showed that people do poorly on completely abstract problems, but if the problem is restated to allow the use of intuitive social intelligence, performance dramatically improves.（See Wason selection task）
+Kahneman， Slovic & Tversky (1982) have shown that people are terrible at elementary problems that involve uncertain reasoning. (See list of cognitive biases for several examples).
+Lakoff & Núñez (2000) have controversially argued that even our skills at mathematics depend on knowledge and skills that come from "the body", i.e. sensorimotor and perceptual skills.（See Where Mathematics Comes From）
+ Planning:
+ACM 1998，~I.2.8,
+Russell & Norvig 2003，第375–459頁,
+Poole，Mackworth & Goebel（1998），第281–316頁,
+Luger & Stubblefield 2004，第314–329頁,
+Nilsson 1998，chpt. 10.1–2, 22
+ Information value theory:
+Russell & Norvig 2003，第600–604頁
+ Classical planning:
+Russell & Norvig 2003，第375–430頁,
+Poole，Mackworth & Goebel（1998），第281–315頁,
+Luger & Stubblefield 2004，第314–329頁,
+Nilsson 1998，chpt. 10.1–2, 22
+ Planning and acting in non-deterministic domains: conditional planning, execution monitoring, replanning and continuous planning:
+Russell & Norvig 2003，第430–449頁
+ Multi-agent planning and emergent behavior:
+Russell & Norvig 2003，第449–455頁
+ Machine perception:
+Russell & Norvig 2003，第537–581, 863–898頁
+Nilsson 1998，~chpt. 6
+ Computer vision:
+ACM 1998，I.2.10
+Russell & Norvig 2003，第863–898頁
+Nilsson 1998，chpt. 6
+ Speech recognition:
+ACM 1998，~I.2.7
+Russell & Norvig 2003，第568–578頁
+ Object recognition:
+Russell & Norvig 2003，第885–892頁
+ Kismet. MIT Artificial Intelligence Laboratory, Humanoid Robotics Group.
+ 人工智慧有多恐怖？聽聽「天才」Demis Hassabis 怎麼說！the guardian《The superhero of artificial intelligence: can this genius keep it in check?》. inside / tech2ipo.com （中文（台灣）‎）.
+ 人工智能發展是繁榮人類或毀滅人類？. 大紀元/莫琳綜 （中文（台灣）‎）.
+ AlphaGo贏棋王 靠兩大密技. 2016-03-19 04:01 經濟日報 記者彭慧明 （中文（台灣）‎）.
+ 專家憂人工智慧武器成「殺人機器」 多國研商限制規範. 2014/11/13 The News Lens關鍵評論 Sid Weng （中文（台灣）‎）.
+ 別再讓機器人殺人！反對團體呼籲勿用人工智慧參與戰爭. 風傳媒 蕭喬雲 2015年10月22日 （中文（台灣）‎）.
+ 機器人威脅人類 10大類工作未來恐被取代. 大紀元 / 鄭孝祺 （中文（台灣）‎）.
+ 日近半職業 將被人工智慧取代. 中國時報 （中文（台灣）‎）.
+ 人工智慧：提前到來的職業殺手. Evans Data調查 April （中文（台灣）‎）.[永久失效連結]
+ 中時-馬雲談AI的風險
+ 數據科學：二十一世紀最Sexy的職業. 哈佛商業評論.
+ Nils Nilsson寫道："Simply put, there is wide disagreement in the field about what AI is all about" （Nilsson 1983，p.10）.
+ Biological intelligence vs. intelligence in general:
+Russell & Norvig 2003，第2–3頁, who make the analogy with aeronautical engineering.
+McCorduck 2004，第100–101頁, who writes that there are "two major branches of artificial intelligence: one aimed at producing intelligent behavior regardless of how it was accomplioshed, and the other aimed at modeling intelligent processes found in nature, particularly human ones."
+Kolata 1982, a paper in Science, which describes McCathy's indifference to biological models. Kolata quotes McCarthy as writing: "This is AI, so we don't care if it's psychologically real"[1]. McCarthy recently reiterated his position at the AI@50 conference where he said "Artificial intelligence is not, by definition, simulation of human intelligence" （Maker 2006）.
+ Neats vs. scruffies:
+McCorduck 2004，第421–424, 486–489頁
+Crevier 1993，第168頁
+Nilsson 1983，第10–11頁
+ Symbolic vs. sub-symbolic AI:
+Nilsson (1998， p. 7), who uses the term "sub-symbolic".
+ Haugeland 1985, p. 255.
+ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.38.8384&rep=rep1&type=pdf
+ Pei Wang. Artificial general intelligence, 2008: proceedings of the First AGI Conference. IOS Press. 2008: 63 [31 October 2011]. ISBN 978-1-58603-833-5.
+ AI's immediate precursors:
+McCorduck 2004，第51–107頁
+Crevier 1993，第27–32頁
+Russell & Norvig 2003，第15, 940頁
+Moravec 1988，第3頁
+See also Template:See section. Among the researchers who laid the foundations of AI were Alan Turing, John Von Neumann, Norbert Wiener, Claude Shannon, Warren McCullough, Walter Pitts and Donald Hebb.
+ Haugeland 1985，第112–117頁
+ The most dramatic case of sub-symbolic AI being pushed into the background was the devastating critique of perceptrons by Marvin Minsky and Seymour Papert in 1969. See History of AI, AI winter, or Frank Rosenblatt.
+ Cognitive simulation, Newell and Simon, AI at CMU (then called Carnegie Tech):
+McCorduck 2004，第139–179, 245–250, 322–323 (EPAM)頁
+Crevier 1993，第145–149頁
+ Soar (history):
+McCorduck 2004，第450–451頁
+Crevier 1993，第258–263頁
+ McCarthy and AI research at SAIL and SRI International:
+McCorduck 2004，第251–259頁
+Crevier 1993
+ AI research at Edinburgh and in France, birth of Prolog:
+Crevier 1993，第193–196頁
+Howe 1994
+ AI at MIT under Marvin Minsky in the 1960s :
+McCorduck 2004，第259–305頁
+Crevier 1993，第83–102, 163–176頁
+Russell & Norvig 2003，第19頁
+ Cyc:
+McCorduck 2004，第489頁, who calls it "a determinedly scruffy enterprise"
+Crevier 1993，第239–243頁
+Russell & Norvig 2003，第363−365頁
+Lenat & Guha 1989
+ Knowledge revolution:
+McCorduck 2004，第266–276, 298–300, 314, 421頁
+Russell & Norvig 2003，第22–23頁
+ Expert systems:
+ACM 1998，I.2.1,
+Russell & Norvig 2003，第22–24頁
+Luger & Stubblefield 2004，第227–331頁,
+Nilsson 1998，chpt. 17.4
+McCorduck 2004，第327–335, 434–435頁
+Crevier 1993，第145–62, 197–203頁
+ Embodied approaches to AI:
+McCorduck 2004，第454–462頁
+Brooks 1990
+Moravec 1988
+ Revival of connectionism:
+Crevier 1993，第214–215頁
+Russell & Norvig 2003，第25頁
+ Computational intelligence
+IEEE Computational Intelligence Society
+ 形式方法是目前首選的（"簡約派的勝利"）:
+Russell & Norvig 2003，第25–26頁
+McCorduck 2004，第486–487頁
+ Pat Langley, "The changing science of machine learning", Machine Learning, Volume 82, Number 3, 275–279, doi:10.1007/s10994-011-5242-y
+ Agent architectures, hybrid intelligent systems:
+Russell & Norvig (2003， pp. 27, 932, 970–972)
+Nilsson (1998， chpt. 25)
+來源
+中文書
+李開復、王詠剛；《人工智慧來了》
+教材
+Luger, George; Stubblefield, William. Artificial Intelligence: Structures and Strategies for Complex Problem Solving 5th. The Benjamin/Cummings Publishing Company, Inc. 2004. ISBN 0-8053-4780-1.
+Luger, George. 人工智能：複雜問題求解的結構和策略. 由史忠植 等翻譯 原書第4版. 北京: 機械工業出版社. 2004. ISBN 7-111-12944-X （中文）.
+Neapolitan, Richard; Jiang, Xia. Contemporary Artificial Intelligence. Chapman & Hall/CRC. 2012. ISBN 978-143984-469-4.
+Nilsson, Nils. Artificial Intelligence: A New Synthesis. Morgan Kaufmann Publishers. 1998. ISBN 978-1-55860-467-4.
+Nilsson, Nils. 人工智能. 鄭扣根等譯. 北京: 機械工業出版社. 2000. ISBN 7-111-07885-3 （中文）.
+Russell, Stuart J.; Norvig, Peter. Artificial Intelligence: A Modern Approach 2nd. Upper Saddle River, New Jersey: Prentice Hall. 2003. ISBN 0-13-790395-2.
+Russell, Stuart J.; Norvig, Peter. 人工智能：一種現代方法. 由姜哲翻譯 原書第2版. 北京: 人民郵電出版社. 2004. ISBN 9787115122285 （中文）.
+Poole, David; Mackworth, Alan; Goebel, Randy. Computational Intelligence: A Logical Approach. New York: Oxford University Press. 1998. ISBN 0-19-510270-3.
+Winston, Patrick Henry. Artificial Intelligence. Reading, Massachusetts: Addison-Wesley. 1984. ISBN 0-201-08259-4.
+Winston, Patrick Henry. 人工智能. 由崔良沂、趙永昌翻譯 原書第3版. 北京: 清華大學出版社. 2005. ISBN 9787302103271 （中文）.
+人工智慧歷史
+Crevier, Daniel. AI: The Tumultuous Search for Artificial Intelligence. New York, NY: BasicBooks. 1993. ISBN 978-0-465-02997-6.
+McCorduck, Pamela. Machines Who Think 2nd. Natick, MA: A. K. Peters, Ltd. 2004. ISBN 1-56881-205-1.
+Nils, Nilsson. The Quest for Artificial Intelligence: A History of Ideas and Achievements. New York: Cambridge University Press. 2010.
+其他
+ACM Computing Classification System: Artificial intelligence. ACM. 1998 [30 August 2007]. （原始內容存檔於2007年10月12日）.
+Aleksander, Igor. Artificial Neuroconsciousness: An Update. IWANN. 1995. （原始內容存檔於1997年3月2日）. BibTex Internet Archive
+Brooks, Rodney. Elephants Don't Play Chess (PDF). Robotics and Autonomous Systems. 1990, 6: 3–15 [30 August 2007]. doi:10.1016/S0921-8890(05)80025-9. （原始內容存檔 (PDF)於2007年8月9日）..
+Buchanan, Bruce G. A (Very) Brief History of Artificial Intelligence (PDF). AI Magazine. 2005: 53–60 [30 August 2007]. （原始內容 (PDF)存檔於2007年9月26日）.
+Dennett, Daniel. Consciousness Explained. The Penguin Press. 1991. ISBN 0-7139-9037-6.
+Dreyfus, Hubert. What Computers Can't Do. New York: MIT Press. 1972. ISBN 0-06-011082-1.
+Dreyfus, Hubert. What Computers Still Can't Do. New York: MIT Press. 1979. ISBN 0-262-04134-0.
+Dreyfus, Hubert; Dreyfus, Stuart. Mind over Machine: The Power of Human Intuition and Expertise in the Era of the Computer. Oxford, UK: Blackwell. 1986. ISBN 0-02-908060-6.
+Dreyfus, Hubert. What Computers Still Can't Do. New York: MIT Press. 1992. ISBN 0-262-54067-3.
+Edelman, Gerald. Gerald Edelman – Neural Darwinism and Brain-based Devices. Talking Robots. 23 November 2007. （原始內容存檔於2009年10月8日）.
+Fearn, Nicholas. The Latest Answers to the Oldest Questions: A Philosophical Adventure with the World's Greatest Thinkers. New York: Grove Press. 2007. ISBN 0-8021-1839-9.
+Forster, Dion. Self validating consciousness in strong artificial intelligence: An African theological contribution (PDF). Pretoria: University of South Africa. 2006.
+Gladwell, Malcolm. Blink. New York: Little, Brown and Co. 2005. ISBN 0-316-17232-4.
+Haugeland, John. Artificial Intelligence: The Very Idea. Cambridge, Mass.: MIT Press. 1985. ISBN 0-262-08153-9.
+Hawkins, Jeff; Blakeslee, Sandra. On Intelligence. New York, NY: Owl Books. 2005. ISBN 0-8050-7853-3.
+Hofstadter, Douglas. Gödel, Escher, Bach: an Eternal Golden Braid. New York, NY: Vintage Books. 1979. ISBN 0-394-74502-7.
+Howe, J. Artificial Intelligence at Edinburgh University: a Perspective. November 1994 [30 August 2007]..
+Kahneman, Daniel; Slovic, D.; Tversky, Amos. Judgment under uncertainty: Heuristics and biases. New York: Cambridge University Press. 1982. ISBN 0-521-28414-7.
+Kolata, G. How can computers get common sense?. Science. 1982, 217 (4566): 1237–1238. PMID 17837639. doi:10.1126/science.217.4566.1237.
+Kurzweil, Ray. The Age of Spiritual Machines. Penguin Books. 1999. ISBN 0-670-88217-8.
+Kurzweil, Ray. The Singularity is Near. Penguin Books. 2005. ISBN 0-670-03384-7.
+Lakoff, George. Women, Fire, and Dangerous Things: What Categories Reveal About the Mind. University of Chicago Press. 1987. ISBN 0-226-46804-6.
+Lakoff, George; Núñez, Rafael E. Where Mathematics Comes From: How the Embodied Mind Brings Mathematics into Being. Basic Books. 2000. ISBN 0-465-03771-2..
+Lenat, Douglas; Guha, R. V. Building Large Knowledge-Based Systems. Addison-Wesley. 1989. ISBN 0-201-51752-3.
+Lighthill, Professor Sir James. Artificial Intelligence: a paper symposium. Science Research Council. 1973. |contribution=被忽略 (幫助)
+Lucas, John. Minds, Machines and Gödel. (編) Anderson, A.R. Minds and Machines. 1961 [30 August 2007]. （原始內容存檔於2007年8月19日）.
+Maker, Meg Houston. AI@50: AI Past, Present, Future. Dartmouth College. 2006 [16 October 2008]. （原始內容存檔於2008年10月8日）.
+McCarthy, John; Minsky, Marvin; Rochester, Nathan; Shannon, Claude. A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence. 1955 [30 August 2007]. （原始內容存檔於2007年8月26日）..
+McCarthy, John; Hayes, P. J. Some philosophical problems from the standpoint of artificial intelligence. Machine Intelligence. 1969, 4: 463–502 [30 August 2007]. （原始內容存檔於2007年8月10日）.
+McCarthy, John. What Is Artificial Intelligence?. 12 November 2007. （原始內容存檔於2015年11月18日）.
+Minsky, Marvin. Computation: Finite and Infinite Machines. Englewood Cliffs, N.J.: Prentice-Hall. 1967. ISBN 0-13-165449-7.
+Minsky, Marvin. The Emotion Machine. New York, NY: Simon & Schusterl. 2006. ISBN 0-7432-7663-9.
+Moravec, Hans. The Role of Raw Power in Intelligence. 1976 [30 August 2007].
+Moravec, Hans. Mind Children. Harvard University Press. 1988. ISBN 0-674-57616-0.
+NRC, (United States National Research Council). Developments in Artificial Intelligence. Funding a Revolution: Government Support for Computing Research. National Academy Press. 1999.
+Needham, Joseph. Science and Civilization in China: Volume 2. Caves Books Ltd. 1986.
+Newell, Allen; Simon, H. A. GPS: A Program that Simulates Human Thought. (編) Feigenbaum, E.A.; Feldman, J. Computers and Thought. New York: McGraw-Hill. 1963.
+Newell, Allen; Simon, H. A. Communications of the ACM 19 (3). 1976. （原始內容存檔於2008-10-07）. |contribution=被忽略 (幫助).
+Nilsson, Nils, Artificial Intelligence Prepares for 2001 (PDF), AI Magazine, 1983, 1 (1), Presidential Address to the Association for the Advancement of Artificial Intelligence.
+Penrose, Roger. The Emperor's New Mind: Concerning Computer, Minds and The Laws of Physics. Oxford University Press. 1989. ISBN 0-19-851973-7.
+Searle, John. Minds, Brains and Programs. Behavioral and Brain Sciences. 1980, 3 (3): 417–457. doi:10.1017/S0140525X00005756. （原始內容存檔於2010-01-18）.
+Searle, John. Mind, language and society. New York, NY: Basic Books. 1999. ISBN 0-465-04521-9. OCLC 231867665 43689264.
+Serenko, Alexander; Detlor, Brian. Intelligent agents as innovations (PDF). AI and Society. 2004, 18 (4): 364–381. doi:10.1007/s00146-004-0310-5. （原始內容 (PDF)存檔於2012-03-01）.
+Serenko, Alexander; Ruhi, Umar; Cocosila, Mihail. Unplanned effects of intelligent agents on Internet use: Social Informatics approach (PDF). AI and Society. 2007, 21 (1–2): 141–166. doi:10.1007/s00146-006-0051-8. （原始內容 (PDF)存檔於2012-06-20）.
+Andreas Kaplan; Michael Haenlein (2018) Siri, Siri in my Hand, who's the Fairest in the Land? On the Interpretations, Illustrations and Implications of Artificial Intelligence, Business Horizons, 62(1)
+Shapiro, Stuart C. Artificial Intelligence. (編) Shapiro, Stuart C. Encyclopedia of Artificial Intelligence (PDF) 2nd. New York: John Wiley. 1992: 54–57. ISBN 0-471-50306-1.
+Simon, H. A. The Shape of Automation for Men and Management. New York: Harper & Row. 1965.
+Skillings, Jonathan. Getting Machines to Think Like Us. cnet. 3 July 2006 [3 February 2011].
+Tecuci, Gheorghe. Artificial Intelligence. Wiley Interdisciplinary Reviews: Computational Statistics (Wiley). March/April 2012, 4 (2): 168–180. doi:10.1002/wics.200.
+Turing, Alan. Computing Machinery and Intelligence. Mind LIX. October 1950: 433–460 [2008-08-18]. ISSN 0026-4423. doi:10.1093/mind/LIX.236.433. （原始內容存檔於2008-07-02）.
+van der Walt, Christiaan; Bernard, Etienne. Data characteristics that determine classifier performance (PDF). 2006<!––year is presumed based on acknowledgements at the end of the article––> [5 August 2009]. （原始內容 (PDF)存檔於2009年3月25日）.
+Vinge, Vernor. The Coming Technological Singularity: How to Survive in the Post-Human Era. 1993.
+Wason, P. C.; Shapiro, D. Reasoning. (編) Foss, B. M. New horizons in psychology. Harmondsworth: Penguin. 1966.
+Weizenbaum, Joseph. Computer Power and Human Reason. San Francisco: W.H. Freeman & Company. 1976. ISBN 0-7167-0464-1.
+擴展閱讀
+TechCast Article Series, John Sagi, Framing Consciousness
+Boden, Margaret, Mind As Machine, Oxford University Press, 2006
+Johnston, John (2008) "The Allure of Machinic Life: Cybernetics, Artificial Life, and the New AI", MIT Press
+Myers, Courtney Boyd ed. (2009). The AI Report. Forbes June 2009
+Serenko, Alexander. The development of an AI journal ranking based on the revealed preference approach (PDF). Journal of Informetrics. 2010, 4 (4): 447–459. doi:10.1016/j.joi.2010.04.001.[永久失效連結]
+Sun, R. & Bookman, L. (eds.), Computational Architectures: Integrating Neural and Symbolic Processes. Kluwer Academic Publishers, Needham, MA. 1994.
+外部連結
+從維基百科的姊妹計劃
+了解更多有關
+「Artificial Intelligence」的內容
+搜尋維基詞典	維基詞典上的字詞解釋
+搜尋維基共享資源	維基共享資源上的多媒體資源
+搜尋維基新聞	維基新聞上的新聞
+搜尋維基語錄	維基語錄上的名言
+搜尋維基文庫	維基文庫上的原始文獻
+搜尋維基教科書	維基教科書上的教科書和手冊
+搜尋維基學院	維基學院上的學習資源
+What Is AI?—An introduction to artificial intelligence by AI founder John McCarthy.
+開放式目錄計劃中和AI相關的內容
+AITopics—A large directory of links and other resources maintained by the Association for the Advancement of Artificial Intelligence, the leading organization of academic AI researchers.
+Artificial Intelligence Discussion group
+機器人智慧機器人智慧
+研學論壇[永久失效連結]關於人工智慧，模式識別，科學交流的學術論壇
+中國人工智慧網－人工智慧|模式識別|數字圖像處理[永久失效連結]
+AI Depot—community discussion, news, and articles
+Loebner Prize website
+Game AI—電腦遊戲開發者的AI資源
+Kurzweil CyberArt Technologies—關於人工智慧藝術的網站，裡面有著名的人工智慧繪畫程式AARON
+關於人工智慧，專家系統prolog語言全介紹的wiki網站
+中華民國人工智慧學會—以促進中華民國人工智慧及相關領域之研究、發展、應用與交流為宗旨的民間組織。
+MostAI—關於人工智慧的網站，AI Fans交流平台
+智慧程式自進化概念
+進化論
+[顯示]閱論編
+電腦科學的主要領域
+[顯示]閱論編
+技術
+[顯示]閱論編
+科學哲學
+[顯示]閱論編
+精神哲學
+[顯示]閱論編
+機器人學
+規範控制
+AAT: 300251574 BNF: cb11932084t (data) GND: 4033447-8 LCCN: sh85008180 NDL: 00574798
+7 個分類：人工智慧控制論形式科學技術與社會計算神經科學新興技術計算機科學中未解決的問題
+導覽選單
+沒有登入對話貢獻建立帳號登入條目討論
+臺灣正體
+汉漢閱讀編輯檢視歷史搜尋
+搜尋維基百科
+首頁
+分類索引
+特色內容
+新聞動態
+近期變更
+隨機條目
+說明
+說明
+維基社群
+方針與指引
+互助客棧
+知識問答
+字詞轉換
+IRC即時聊天
+聯絡我們
+關於維基百科
+資助維基百科
+其他專案
+維基共享資源
+列印/匯出
+下載為 PDF
+可列印版
+工具
+連結至此的頁面
+相關變更
+上傳檔案
+特殊頁面
+靜態連結
+頁面資訊
+維基數據項目
+引用此頁面
+左側跳頂連結
+
+其他語言
+العربية
+English
+Español
+हिन्दी
+Nederlands
+Русский
+Татарча/tatarça
+اردو
+Tiếng Việt
+還有 103 種語言
+編輯連結
+本頁面最後修訂於2019年2月23日 (週六) 06:20。
+本站的全部文字在創作共用 姓名標示-相同方式分享 3.0 協議之條款下提供，附加條款亦可能應用（請參閱使用條款）。
+Wikipedia®和維基百科標誌是維基媒體基金會的註冊商標；維基™是維基媒體基金會的商標。
+維基媒體基金會是按美國國內稅收法501(c)(3)登記的非營利慈善機構。
+隱私政策關於維基百科免責聲明開發人員Cookie 聲明手機版檢視Wikimedia Foundation Powered by MediaWiki
