@@ -1,0 +1,74 @@
+@charset "utf-8";
+h1 {
+    /* h1 樣式取代 */
+    font-family: "標楷體", "新細明體", "微軟正黑體";
+    font-size: 36px;
+    color:#eb3b0f;
+    font-weight: normal;
+}
+h2 {
+    font-family: "微軟正黑體", "蘋方-繁";
+    font-size: 30px;
+    color: #00bfff;
+    font-weight: bold;
+    font-style: italic;
+}
+#titleID {
+    font-family: "標楷體";
+    font-size: 24px;
+    color: #ffa734;
+    font-weight: bold;
+}
+.title1 {
+    font-family: "微軟正黑體";
+    font-size: 32px;
+    color: #00c451;
+    text-decoration: overline underline line-through;
+}
+.ulone {
+    font-family: "微軟正黑體";
+    font-size: 22px;
+    color: #6500a8;
+    list-style-type: none;
+    list-style-image: url("pdiamond.png");
+}
+.ultwo {
+    font-size: 20px;
+    color: #009edd;
+    list-style-type:disc;
+    list-style-image: none;
+}
+.para1 {
+    font-family: "微軟正黑體";
+    font-size: 20px;
+    color: #0066cc;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-indent: 44px;
+    padding-top: 0px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 0px;
+}
+.wordmark1 {
+    background-color: #ffecb7;
+}
+.wordmark2 {
+    background-color: #21ff21;
+}
+.wordmark3 {
+    background-color: #ffa8a8;
+    text-decoration: line-through;
+}
+.div1 {
+    border-width: 2px;
+    border-style: dotted;
+    border-color: #999999;
+    border-top-color: #00cc6d;
+    border-top-width: 4px;
+    border-top-style: double;
+    margin: 40px;
+    background-color: #efffe0;
+    /*cursor: url("pokeball.cur"), auto;*/
+    cursor: url("http://www.rw-designer.com/cursor-extern.php?id=11463"), auto;
+}

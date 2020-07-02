@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Storage - sessionStorage</title>
+    <script type="application/javascript">
+    function saveSession() {
+        if (sessionStorage) {
+
+            var myInput = document.getElementById("txtInputSession");
+            var myData = myInput.value;
+            sessionStorage.setItem("mySession1", myData);
+            alert("儲存Session成功");
+        } else {
+            alert("瀏覽器不支援sessionStorage");
+        }
+    }
+
+    function readSession() {
+        if (sessionStorage) {
+            if (sessionStorage.getItem("mySession1") != null) {
+
+                var myInput = document.getElementById("txtInputSession");
+                myInput.value = sessionStorage.getItem("mySession1");
+                alert("讀取Session成功");
+            }
+        } else {
+            alert("瀏覽器不支援sessionStorage");
+        }
+    }
+
+    function clearSession() {
+        if (sessionStorage) {
+            var myInput = document.getElementById("txtInputSession");
+            sessionStorage.removeItem("mySession1");
+            myInput.value = null;
+            alert("清除Session成功");
+        } else {
+            alert("瀏覽器不支援sessionStorage");
+        }
+    }
+    </script>
+</head>
+
+<body onload="readSession()">
+<fieldset>
+<legend>Session Stroage 測試</legend>
+<input type="text" id="txtInputSession"><br>
+<button onclick="saveSession()">儲存Session Data</button>
+<button onclick="clearSession()">清除Session Data</button>
+
+</fieldset>
+
+</body>
+
+</html>

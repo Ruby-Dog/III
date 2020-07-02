@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Web Storage - LocalStorage</title>
+    <script type="application/javascript">
+    function saveLocal() {
+        if (localStorage) {
+
+            var myInput = document.getElementById("txtInputLocal");
+            var myData = myInput.value;
+            localStorage.setItem("myLocal1", myData);
+            alert("儲存local成功");
+        } else {
+            alert("瀏覽器不支援localStorage");
+        }
+    }
+
+    function readLocal() {
+        if (localStorage) {
+            if (localStorage.getItem("myLocal1") != null) {
+
+                var myInput = document.getElementById("txtInputLocal");
+                myInput.value = localStorage.getItem("myLocal1");
+                alert("讀取local成功");
+            }
+        } else {
+            alert("瀏覽器不支援localStorage");
+        }
+    }
+
+    function clearLocal() {
+        if (localStorage) {
+            var myInput = document.getElementById("txtInputLocal");
+            localStorage.removeItem("myLocal1");
+            myInput.value = null;
+            alert("清除local成功");
+        } else {
+            alert("瀏覽器不支援localStorage");
+        }
+    }
+    </script>
+</head>
+
+<body onload="readLocal()">
+<fieldset>
+<legend>Local Stroage 測試</legend>
+<input type="text" id="txtInputLocal"><br>
+<button onclick="saveLocal()">儲存Local Data</button>
+<button onclick="clearLocal()">清除Local Data</button>
+
+</fieldset>
+
+</body>
+
+</html>

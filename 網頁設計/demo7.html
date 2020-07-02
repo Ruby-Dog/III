@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML 5 Form</title>
+    <style type="text/css">
+        .input1 {
+            font-family: "微軟正黑體";
+            font-size: 20px;
+        }
+        .fieldset1 {
+            font-family: "微軟正黑體";
+            font-size: 20px;
+            border: 2px solid #99cc99;
+            background-color: #ccffcc;
+            border-radius: 8px;
+        }
+        .ul1 {
+            list-style-type: none;
+        }
+        .ul1 li {
+            height: 40px;
+        }
+        .divcenter {
+            text-align: center;
+        }
+        .button1 {
+            font-family: "微軟正黑體";
+            font-weight: bold;
+            font-size: 20px;
+            color: #FFFFFF;
+            background-color: #116611;
+            width: 150px;
+            height: 40px;
+            border-radius: 8px;
+        }
+        .button1:hover {
+            background-color: #339933;
+        }
+    </style>
+    <script type="application/javascript" src="demo7.js">
+    </script>
+
+</head>
+
+<body>
+    <form action="register2.php" id="form1" method="POST" enctype="multipart/form-data" onsubmit="return checkFormData()">
+        
+        <fieldset class="fieldset1">
+            <legend>帳號資料</legend>
+            <ul class="ul1">
+                <li><label>帳號:</label>
+                    <input type="text" name="username" placeholder="請輸入帳號" autocomplete="off" autofocus required class="input1">
+                </li>
+                <li><label>密碼:</label>
+                    <input type="password" name="password" placeholder="請輸入密碼" autocomplete="off" required class="input1">
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset class="fieldset1">
+            <legend>基本資料</legend>
+            <ul class="ul1">
+                <li>
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="請填入Email" class="input1">
+                </li>
+                <li>
+                    <label>年齡:</label>
+                    <input type="number" name="age" min="1" max="150" step="1" class="input1">
+                </li>
+                <li>
+                    <label>電話:</label>
+                    <input type="tel" name="phone" class="input1">
+                </li>
+                <li>
+                    <label>體重:</label>
+                    <input type="range" name="weight" id="rangeWeight" oninput="displayWeight()" min="1" max="200" step="1" value="50" class="input1">
+                    <label id="lblWeight">50kg</label>
+                </li>
+                <li>
+                    <label>生日:</label>
+                    <input type="date" name="birthday" class="input1">
+                </li>
+                <li>
+                    <label>月份:</label>
+                    <input type="month" name="month" class="input1">
+                </li>
+                <li>
+                    <label>週數:</label>
+                    <input type="week" name="week" class="input1">
+                </li>
+                <li>
+                    <label>時間:</label>
+                    <input type="time" name="time" class="input1">
+                </li>
+                <li>
+                    <label>FB/IG URL</label>
+                    <input type="url" name="url" class="input1">
+                </li>
+                <li>
+                    <label>顏色</label>
+                    <input type="color" name="myColor" class="input1">
+                </li>
+                <li>
+                    <label>多檔上傳</label>
+                    <input type="file" multiple name="uploadfiles" class="input1">
+                </li>
+                <li>
+                    <label>目前使用的手機品牌</label>
+                    <datalist id="phonebrand">
+                        <select name="myphonebrand" class="input1">
+                            <option value="Apple">Apple</option>
+                            <option value="Google">Google</option>
+                            <option value="Samsung">Samsung</option>
+                            <option value="Asus">Asus</option>
+                            <option value="LG">LG</option>
+                            <option value="Sony">Sony</option>
+                        </select>
+                    </datalist>
+                    <input type="text" name="myphone" list="phonebrand" class="input1">
+                    <br>若不在以上品牌,  請自行輸入
+                </li>
+            </ul>
+        </fieldset>
+
+        <fieldset class="fieldset1">
+            <div class="divcenter">
+                <input type="submit" value="送出資料" class="button1">
+                <input type="reset" value="重設資料" class="button1">
+            </div>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

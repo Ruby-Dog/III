@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML 5 新規格</title>
+
+    <style type="text/css">
+    .meter1 {
+        width: 250px;
+        height: 30px;
+    }
+    .canvas1 {
+        border: 3px solid #ff9900;
+    }
+    </style>
+
+    <script type="application/javascript">
+
+    var salesData = [[150,300],[250,150],[350,400],[450,250]];
+
+    
+    function drawOnCanvas() {
+
+        var canvas = document.getElementById("myCanvas");
+
+        if (canvas.getContext) {
+            var ctx = canvas.getContext("2d");
+            /* 畫矩形 */
+            ctx.beginPath();
+            ctx.fillStyle = "#5050FF";
+            ctx.strokeStyle = "#FF2222";
+            ctx.lineWidth = 4;
+            ctx.fillRect(150,20,400,50);
+            ctx.strokeRect(150,20,400,50);
+            /* 圓形 */
+            ctx.beginPath();
+            ctx.strokeStyle = "#33FF33";
+            ctx.lineWidth = 5;
+            ctx.arc(250,150,50,0,2*Math.PI);
+            ctx.stroke();
+            /* 畫大餅圖 */
+            ctx.beginPath();
+            ctx.strokeStyle = "#FF3399";
+            ctx.fillStyle = "#FF3399";
+            ctx.lineWidth = 4;
+            ctx.arc(450,200,80,0,1.5*Math.PI);
+            ctx.lineTo(450,200);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.strokeStyle = "#33CC33";
+            ctx.fillStyle = "#33CC33";
+            ctx.lineWidth = 4;
+            ctx.arc(450,200,80,1.5*Math.PI,2.0*Math.PI);
+            ctx.lineTo(450,200);
+            ctx.closePath();
+            ctx.fill();
+            ctx.stroke();
+
+            ctx.font = "bold italic 16pt 微軟正黑體";
+            ctx.fillStyle = "#DDDDDD";
+            ctx.fillText("75%",390,220);
+
+            ctx.font = "bold italic 16pt 微軟正黑體";
+            ctx.fillStyle = "#DDDDDD";
+            ctx.fillText("25%",460,180);
+
+            ctx.font = "bold 16pt 微軟正黑體";
+            ctx.fillStyle = "#999999";
+            ctx.fillText("市佔率",412,305);
+
+            /* 折線圖 */
+            /* 坐標軸 */
+            ctx.beginPath();
+            ctx.moveTo(100,100);
+            ctx.lineTo(100,500);
+            ctx.lineTo(500,500);
+            ctx.strokeStyle = "#2222FF";
+            ctx.lineWidth = 3;
+            ctx.stroke();
+            /* 坐標軸文字 */
+            ctx.font = "bold italic 20pt 微軟正黑體";
+            ctx.fillStyle = "#339933";
+            ctx.fillText("業績", 35, 100);
+            ctx.fillText("日期", 505, 505);
+            /* 畫資料折線 */
+            ctx.beginPath();
+            for (var i = 0; i < salesData.length; i += 1) {
+                if (i == 0) {
+                    ctx.moveTo(salesData[0][0], salesData[0][1]);
+                } else {
+                    ctx.lineTo(salesData[i][0], salesData[i][1]);
+                }
+            }
+            ctx.strokeStyle = "#882222";
+            ctx.lineWidth = 4;
+            ctx.stroke();
+        }
+    }
+
+    function getLocation() {
+        var myLabel = document.getElementById("lblGPSInfo");
+
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(showPosition);
+        } else {
+            myLabel.innerHTML = "瀏覽器不支援GPS定位";
+        }
+    }
+
+    function showPosition(position) {
+        var myLabel = document.getElementById("lblGPSInfo");
+
+        myLabel.innerHTML = "(緯度,經度):(" + position.coords.latitude + "," + position.coords.longitude + ")";
+    }
+    </script>
+</head>
+
+<body onload="drawOnCanvas()">
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">個人首頁</a></li>
+            <li><a href="#">基本資料</a></li>
+            <li><a href="#">作品集</a></li>
+            <li><a href="#">大事記</a></li>
+        </ul>
+    </nav>
+    <hgroup>
+        <h1>HTML 5 新功能示範</h1>
+        <h2>HTML 5 Demo</h2>
+    </hgroup>
+</header>
+
+<main>
+    <article>
+        <header>
+            <h3>HTML 5 介紹</h3>
+        </header>
+        <section>
+            HTML5[註 1]是HTML最新的修訂版本，由全球資訊網協會（W3C）於2014年10月完成標準制定[2][4]。目標是取代1999年所制定的HTML 4.01和XHTML 1.0標準，以期能在網際網路應用迅速發展的時候，使網路標準達到符合當代的網路需求。廣義論及HTML5時，實際指的是包括HTML、CSS和JavaScript在內的一套技術組合。
+        </section>
+        <figure>
+            <img src="html5logo.png" width="180" alt="html 5 logo">
+        </figure>
+        <figcaption>
+            <a href="https://commons.wikimedia.org/w/index.php?curid=12736763">由 W3C, CC BY 3.0</a>
+        </figcaption>
+    </article>
+
+    <article>
+        <section>
+            <details>
+                <summary>HTML 5 介紹</summary>
+                HTML5[註 1]是HTML最新的修訂版本，由全球資訊網協會（W3C）於2014年10月完成標準制定[2][4]。目標是取代1999年所制定的HTML 4.01和XHTML 1.0標準，以期能在網際網路應用迅速發展的時候，使網路標準達到符合當代的網路需求。廣義論及HTML5時，實際指的是包括HTML、CSS和JavaScript在內的一套技術組合。
+            </details>
+        </section>
+    </article>
+
+    <article>
+        <section>
+            HTML 5 多媒體測試 - 影片檔, mp4/h.264
+        </section>
+        <aside>
+            <video src="bird.ogv" width="800" controls muted>
+        </aside>
+    </article>
+
+    <article>
+        <section>
+            HTML 5 多媒體測試 - 聲音檔, wav, mp3, acc
+        </section>
+        <aside>
+            <audio src="bird.ogg" controls autoplay muted>
+        </aside>
+    </article>
+
+    <article>
+        <section>HTML 5 長條圖</section>
+        <figure>
+            <p>國文 <meter min="0" max="100" value="80" class="meter1">80</meter></p>
+            <p>英文 <meter min="0" max="100" value="60" class="meter1">60</meter></p>
+            <p>數學 <meter min="0" max="100" value="50" class="meter1">50</meter></p>
+            <p>自然 <meter min="0" max="100" value="70" class="meter1">70</meter></p>
+            <p>社會 <meter min="0" max="100" value="90" class="meter1">90</meter></p>
+        </figure>
+    </article>
+
+    <article>
+        <section>HTML 5 繪圖功能 Canvas</section>
+        <aside>
+            <canvas width="600" height="600" class="canvas1" id="myCanvas"></canvas>
+        </aside>
+    </article>
+
+    <article>
+        <section>
+            GPS定位測試
+        </section>
+        <label id="lblGPSInfo">GPS位置</label><br>
+        <button onclick="getLocation()">取得 GPS 定位</button>
+    </article>
+
+</main>
+
+<footer>
+
+</footer>
+
+</body>
+
+</html>

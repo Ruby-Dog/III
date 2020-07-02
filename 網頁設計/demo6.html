@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>HTML 4 Form</title>
+    <style type="text/css">
+    .tdone {
+        background-color: #e0ffe2;
+    }
+    .tdtwo {
+        background-color: #cbffff;
+    }
+    .tdthree {
+        background-color: #fffde8;
+    }
+    .word1 {
+        font-family: "微軟正黑體";
+        font-size: 18px;
+        letter-spacing: 1px;
+        color: #222222;
+    }
+    </style>
+    <script type="application/javascript">
+        console.log("Hello Javascript !!");
+        console.log("5" - 1);
+        console.log("5" + 1);
+        console.log(5 * null);
+        console.log("5" * 2);
+        console.log("five" * 2);
+        
+
+        function welcome() {
+            alert("歡迎填寫本表單 !!");
+        }
+
+        function clearInputText() {
+            var myUserName = document.getElementById("txtUserName");
+            myUserName.value = "";
+        }
+
+        function clearInputValue(myInput) {
+            myInput.value = "";
+        }
+
+        function checkFormData() {
+            var myUserName = document.getElementById("txtUserName");
+            var myPassword = document.getElementById("txtPassword");
+
+            if (myUserName.value == "") {
+                alert("請輸入使用者名稱!");
+                return false
+            }
+
+            if (myPassword.value == "") {
+                alert("請輸入密碼!");
+                return false
+            }
+
+            var myGenderArray = document.getElementsByName("gender");
+            var ifChecked = false;
+
+            for (var i = 0; i < myGenderArray.length; i += 1) {
+                if (myGenderArray[i].checked == true) {
+                    ifChecked = true;
+                    break;
+                }
+            }
+
+            if (ifChecked == false) {
+                alert("請輸入性別!");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body onload="welcome()">
+    <form method="POST" enctype="multipart/form-data" action="register.php" onsubmit="return checkFormData()">
+        <table width="650" border="0" align="center" cellpadding="8" cellspacing="3">
+            <tr>
+                <td class="tdone" width="150"><label class="word1">使用者名稱</label></td>
+                <td class="tdtwo"><input type="text" name="username" id="txtUserName" value="請輸入您的帳號" size="20" maxlength="50" class="word1" onfocus="clearInputText()"></td>
+            </tr>
+            <tr>
+                <td class="tdone"><label class="word1">使用者密碼</label></td>
+                <td class="tdthree"><input type="password" name="password" id="txtPassword" size="20" maxlength="50" class="word1" onfocus="clearInputValue(this)"></td>
+            </tr>
+            <tr>
+                <td class="tdone"><label class="word1">性別</label></td>
+                <td class="tdtwo">
+                    <input type="radio" name="gender" value="1" class="word1"><label class="word1">男</label>
+                    <input type="radio" name="gender" value="2" class="word1"><label class="word1">女</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="tdone"><label class="word1">婚姻狀態</label></td>
+                <td class="tdthree">
+                    <input type="radio" name="marriage" value="1" checked class="word1"><label class="word1">未婚</label>
+                    <input type="radio" name="marriage" value="2" class="word1"><label class="word1">已婚</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="tdone"><label class="word1">興趣嗜好</label></td>
+                <td class="tdtwo">
+                    <input type="checkbox" name="hobby1" value="1" class="word1"><label class="word1">電影</label>
+                    <input type="checkbox" name="hobby2" value="1" class="word1"><label class="word1">唱歌</label>
+                    <input type="checkbox" name="hobby3" value="1" checked><label class="word1">美食</label>
+                    <input type="checkbox" name="hobby4" value="1" class="word1"><label class="word1">攝影</label>
+                    <input type="checkbox" name="hobby5" value="1" class="word1"><label class="word1">旅遊</label>
+
+                </td>
+            </tr>
+            <tr>
+                <td class="tdone"><label class="word1">自我介紹</label></td>
+                <td class="tdthree">
+                    <textarea name="selfinfo" cols="40" rows="8" class="word1">請輸入自我介紹</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td class="tdone"><label class="word1">地址</label></td>
+                <td class="tdtwo">
+                    <select name="city" size="1" class="word1">
+                    <optgroup label="五都 - 6H送達">
+                        <option value="1">高雄市</option>
+                        <option value="2">台南市</option>
+                        <option value="3">台中市</option>
+                        <option value="4">新北市</option>
+                        <option value="5">台北市</option>
+                    </optgroup>
+                    <optgroup label="其他縣市 - 24H送達">
+                        <option value="6">嘉義市</option>
+                        <option value="7">新竹市</option>
+                        <option value="8">桃園市</option>
+                    </optgroup>
+                    </select>
+                    <input type="text" name="address" size="30" value="請輸入地址" class="word1">
+                </td>
+            </tr>
+            <tr>
+                <td class="tdone"><label class="word1">上傳照片</label></td>
+                <td class="tdthree">
+                    <label class="word1">第一張</label><input type="file" name="file1" class="word1"><br>
+                    <label class="word1">第二張</label><input type="file" name="file2" class="word1"><br>
+                </td>
+            </tr>
+            <tr>
+                <td class="tdone"><input type="hidden" name="form_no" value="12345642"></td>
+                <td class="tdtwo">
+                    <input type="submit" value="送出資料" class="word1">
+                    <input type="reset" value="重置表單" class="word1">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

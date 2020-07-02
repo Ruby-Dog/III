@@ -1,0 +1,68 @@
+@charset "utf-8";
+.navul1 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: #573a3a;
+    overflow:hidden;
+}
+.navli1 {
+    font-family: "微軟正黑體";
+    font-size: 18px;
+    font-weight: bold;
+    color: #eeeeee;
+    margin: 0px;
+    padding: 8px;
+    float: left;
+}
+.navli1_active {
+    font-family: "微軟正黑體";
+    font-size: 18px;
+    font-weight: bold;
+    color: #eeeeee;
+    margin: 0px;
+    padding: 8px;
+    float: left;
+    background-color: #EE2299;
+}
+.navli2 {
+    font-family: "微軟正黑體";
+    font-size: 18px;
+    font-weight: bold;
+    color: #eeeeee;
+    margin: 0px;
+    padding: 8px;
+    float: right;
+}
+.a1 {
+    color: #eeeeee;
+    text-decoration:  none;
+}
+.a1:hover {
+    color: #88EEFF;
+    text-decoration: underline;
+}
+.divpro1 {
+    width: 120px;
+    height: 180px;
+    background-color: #f7d9f8;
+    border: solid 1px #999999;
+    margin: 9px;
+    float: left;
+}
+.divpro1:hover {
+    background-color: #d9eff8;
+}
+.ulpro1 {
+    list-style-type: none;
+    font-family: "微軟正黑體";
+    font-size: 14px;
+    padding:  10px;
+    margin: 0px;
+}
+.imgpro1 {
+    width: 100px;
+}
+.pricepro1 {
+    color: #cc0033;
+}
